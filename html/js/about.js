@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
         options: {
             plugins: {
                 legend: { position: 'bottom', onClick: null },
-                tooltip: { enabled: false }
+                tooltip: { enabled: true }
             },
             responsive: true,
             maintainAspectRatio: true
@@ -32,16 +32,10 @@ window.addEventListener('DOMContentLoaded', () => {
         options: {
             plugins: {
                 legend: { position: 'bottom', onClick: null },
-                tooltip: { enabled: false }
+                tooltip: { enabled: true }
             },
             responsive: true,
             maintainAspectRatio: true
         }
     });
-});
-
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Faleminderit për mesazhin tuaj! Do t\'iu kontaktojmë së shpejti.');
-    this.reset();
 });

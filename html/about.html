@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <script src="../html/js/nav.js"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/about.css" rel="stylesheet">
+    <script src="../html/js/nav.js" defer></script>
     <script src="../html/js/footer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="../html/js/about.js"></script>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="../css/about.css" rel="stylesheet">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <pharma-navbar></pharma-navbar>
@@ -19,7 +19,7 @@
 
         <div class="row align-items-center mt-5">
             <div class="col-lg-6 mb-4">
-                <img src="img/doctor.jpg" class="img-fluid rounded mx-auto d-block section-img">
+                <img src="img/doctor.jpg" class=" rounded mx-auto d-block section-img">
             </div>
             <div class="col-lg-6 mb-4">
                 <h2>Rreth PharmaLirë</h2>
@@ -56,59 +56,23 @@
                 </p>
             </div>
             <div class="col-lg-6 mb-4">
-                <img src="img/img1.jpg" class="img-fluid rounded mx-auto d-block section-img">
+                <img src="img/img1.jpg" class=" rounded mx-auto d-block section-img">
             </div>
         </div>
 
         <div class="row mt-5 justify-content-center text-center">
             <h2 class="mb-4">Pyetësori Ynë</h2>
-            <div class="col-12 col-md-5 mb-4">
+            <div class="col-12 col-md-5 mb-4 mt-2">
                 <h5>Sa është e rëndësishme transparenca e çmimeve?</h5>
-                <canvas id="chartTransparency" class="chart"></canvas>
+                <canvas id="chartTransparency" class="chart mt-5"></canvas>
             </div>
-            <div class="col-12 col-md-5 mb-4">
+            <div class="col-12 col-md-5 mb-4 mt-2">
                 <h5>A keni pasur vështirësi të gjeni çmimin më të mirë?</h5>
-                <canvas id="chartDifficulty" class="chart"></canvas>
+                <canvas id="chartDifficulty" class="chart mt-5"></canvas>
             </div>
         </div>
 
-        <div class="row mt-5 mb-5" id="contact">
-            <div class="col-12">
-                <h2>Na Kontaktoni</h2>
-                <p class="text-center">Keni pyetje ose sugjerime? Na dërgoni një mesazh!</p>
-            </div>
-            
-            <div class="col-md-8 mx-auto">
-                <form>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label>Emri</label>
-                            <input type="text" class="form-control" id="firstName" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label>Mbiemri</label>
-                            <input type="text" class="form-control" id="lastName" required>
-                        </div>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label>Email</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label>Mesazhi</label>
-                        <textarea class="form-control" id="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-success btn-lg">Dërgo Mesazhin</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </div>
+       
 
     <pharma-footer></pharma-footer>
 </body>
