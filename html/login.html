@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — PharmaLirë</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+          background-color: #f5f5f5;
+          font-family: Arial, sans-serif;
+        }
+        .login-container {
+          max-width: 400px;
+          margin: 80px auto;
+          padding: 30px;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .login-container h2 {
+          text-align: center;
+          color: #0b7d50;
+          margin-bottom: 25px;
+        }
+        .btn-login {
+          background-color: #0b7d50;
+          color: #fff;
+          font-weight: 600;
+          width: 100%;
+          border-radius: 6px;
+        }
+        .btn-login:hover {
+          background-color: #085c3b;
+        }
+        .form-text a {
+          color: #0b7d50;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .form-text a:hover {
+          text-decoration: underline;
+        }
+        .terms {
+          font-size: 0.8rem;
+          color: #555;
+          text-align: center;
+          margin-top: 15px;
+        }
+        .register-text {
+          font-size: 0.85rem;
+          text-align: center;
+          margin-top: 15px;
+        }
+        .register-text a {
+          color: #0b7d50;
+          text-decoration: none;
+          font-weight: 600;
+        }
+        .register-text a:hover {
+          text-decoration: underline;
+        }
+        @media (max-width: 576px) {
+          .login-container {
+            margin: 40px 20px;
+            padding: 20px;
+          }
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Log in to PharmaLirë</h2>
+    <form action="#" method="POST">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>
+            <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn btn-login mb-3">Login</button>
+
+        <!-- Terms -->
+        <div class="terms">
+            By logging in, you agree to our
+            <a data-bs-toggle="modal" data-bs-target="#termsModal" style="text-decoration : underline;"><strong>Terms of Service</strong></a> and
+            <a data-bs-toggle="modal" data-bs-target="#privacyModal" style="text-decoration : underline;"><strong>Privacy Policy</strong></a>.
+        </div>
+
+        <!-- Register link -->
+        <div class="register-text">
+            Not registered yet? <a href="signup.html">Register now</a>
+        </div>
+    </form>
+</div>
+
+<!-- Modals (Terms & Privacy) -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header" style="background:#0b7d50; color:#fff;">
+                <h5 class="modal-title">Terms of Service</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Welcome to PharmaLirë!</strong></p>
+                <p>By accessing and using this platform, you agree to comply with all the rules and guidelines set forth.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="privacyModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header" style="background:#0b7d50; color:#fff;">
+                <h5 class="modal-title"><strong>Privacy Policy</strong></h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Your privacy matters!</strong></p>
+                <p>PharmaLirë collects personal information solely to provide services and comply with legal requirements.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
