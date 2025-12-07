@@ -15,7 +15,7 @@ class PharmaNavbar extends HTMLElement {
                 <li class="nav-item"><a class="nav-link custom" href="index.html" data-translate="home">Home</a></li>
                 <li class="nav-item"><a class="nav-link custom" href="#" data-translate="compare">Compare Prices</a>
                 </li>
-                <li class="nav-item"><a class="nav-link custom" href="#" data-translate="pharmacies">Pharmacies</a></li>
+                <li class="nav-item"><a class="nav-link custom" href="pharmacies.html" data-translate="pharmacies">Pharmacies</a></li>
                 <li class="nav-item"><a class="nav-link custom" href="about.html" data-translate="about">About</a></li>
                 <li class="nav-item"><a class="nav-link custom" href="contact.html" data-translate="contact">Contact</a></li>
                 <li class="nav-item ms-3"> <button class="btn btn-sm btn-login me-2"
