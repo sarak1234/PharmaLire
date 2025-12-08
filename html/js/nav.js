@@ -4,7 +4,7 @@ class PharmaNavbar extends HTMLElement {
        <nav class="navbar navbar-expand-lg navbar-custom px-4 py-3">
         <a class="brand-green" href="#">
             <img src="img/logo.png" alt="logo" style="height:80px;">
-            <span>PharmaLirë</span>
+            <span>PharMaLirë</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
             aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">

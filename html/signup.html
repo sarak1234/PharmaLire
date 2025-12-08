@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up — PharmaLirë</title>
+    <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -18,7 +18,7 @@
           border-radius: 8px;
           box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        .signup-container h2 {
+        .signup-container h4 {
           text-align: center;
           color: #0b7d50;
           margin-bottom: 25px;
@@ -69,7 +69,7 @@
 <body>
 
 <div class="signup-container">
-    <h2>Sign Up for PharmaLirë</h2>
+    <h4>Regjistroni biznesin  <b> PharMaLirë </b> </h4>
     <form id="signupForm" action="#" method="POST">
         <div class="mb-3">
             <label for="fullName" class="form-label">Full Name</label>
@@ -78,6 +78,10 @@
         <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
             <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+            <label for="numri" class="form-label">Numri i biznesit</label>
+            <input type="text" class="form-control" id="numri" placeholder="Shtoni numrin e biznesit" required>
         </div>
         <div class="mb-3">
             <label for="password" class="form-label">Password</label>
@@ -93,8 +97,8 @@
             <input class="form-check-input" type="checkbox" id="agreeTerms" required>
             <label class="form-check-label" for="agreeTerms">
                 I agree to the
-                <a data-bs-toggle="modal" data-bs-target="#termsModal">Terms of Service</a> and
-                <a data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>.
+                <a data-bs-toggle="modal" data-bs-target="#termsModal" style ="text-decoration :underline;">Terms of Service</a> and
+                <a data-bs-toggle="modal" data-bs-target="#privacyModal" style ="text-decoration :underline;">Privacy Policy</a>.
             </label>
         </div>
 
