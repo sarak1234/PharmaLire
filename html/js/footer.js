@@ -13,10 +13,10 @@ const footerHTML = `
             <!-- Quick Links -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-success">Faqe</h6>
-                <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
-                <p><a href="compareprices.html" class="text-white text-decoration-none">Compare Prices</a></p>
-                <p><a href="pharmacies.html" class="text-white text-decoration-none">Pharmacies</a></p>
-                <p><a href="about.html" class="text-white text-decoration-none">About</a></p>
+                <p><a href="index.html" class="text-white text-decoration-none">Ballina</a></p>
+                <p><a href="compareprices.html" class="text-white text-decoration-none">Krahasoni Çmimet</a></p>
+                <p><a href="pharmacies.html" class="text-white text-decoration-none">Farmacitë</a></p>
+                <p><a href="about.html" class="text-white text-decoration-none">Rreth Nesh</a></p>
             </div>
 
             <!-- Support -->

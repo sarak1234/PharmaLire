@@ -12,12 +12,12 @@ class PharmaNavbar extends HTMLElement {
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav align-items-center">
-                <li class="nav-item"><a class="nav-link custom" href="index.html" data-translate="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link custom" href="#" data-translate="compare">Compare Prices</a>
+                <li class="nav-item"><a class="nav-link custom" href="index.html" data-translate="home">Ballina</a></li>
+                <li class="nav-item"><a class="nav-link custom" href="#" data-translate="compare">Krahasoni Çmimet</a>
                 </li>
-                <li class="nav-item"><a class="nav-link custom" href="pharmacies.html" data-translate="pharmacies">Pharmacies</a></li>
-                <li class="nav-item"><a class="nav-link custom" href="about.html" data-translate="about">About</a></li>
-                <li class="nav-item"><a class="nav-link custom" href="contact.html" data-translate="contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link custom" href="pharmacies.html" data-translate="pharmacies">Farmacitë</a></li>
+                <li class="nav-item"><a class="nav-link custom" href="about.html" data-translate="about">Rreth Nesh</a></li>
+                <li class="nav-item"><a class="nav-link custom" href="contact.html" data-translate="contact">Kontakt</a></li>
                 <li class="nav-item ms-3"> <button class="btn btn-sm btn-login me-2"
                         onclick="location.href='login.html'">Login</button> </li>
                 <li class="nav-item ms-3"> <button class="btn btn-sm btn-signup"
