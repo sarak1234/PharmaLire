@@ -74,7 +74,7 @@
     <p class="text-muted">Krahasoni çmimet dhe gjeni ofertat më të mira në shehër</p>
     <div class="input-group mt-4 shadow search-container">
         <input id="bigSearchInput" type="text" class="form-control form-control-lg" placeholder="P.sh. Paracetamol 500mg">
-        <button class="btn btn-success btn-lg" id="bigSearchBtn">Kërkoni</button>
+        <button class="btn btn-success btn-lg" id="bigSearchBtn" onclick="window.location.href='contact.html'">Kërkoni</button>
     </div>
 </div>
 
@@ -402,7 +402,8 @@
             alert('Shkruaj emrin e barnës.');
             return;
         }
-        alert("Kërkim: " + q + "\n(Kjo është demo)");
+        alert("Kërkim: " + q + "\n Mbyllni këtë njoftim për të ju dërguar në krahasimin e cmimeve");
+         window.location.href = "krahasimi.html?query=" + encodeURIComponent(q);
     }
 
     // Chat

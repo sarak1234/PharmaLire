@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PharMaLirë</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/about.css" rel="stylesheet">
+    <!-- JS komponentë -->
+    <script src="../html/js/nav.js" defer ></script>
+    <script src="../html/js/footer.js" defer ></script>
+
+    <style>
+        body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 0;
+     margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+pharma-footer {
+    flex-shrink: 0;
+}
+        .card {
+        border-radius: 12px; }
+        .badge-stock {
+        font-size: .85rem; }
+        .price {
+        font-weight: 600; }
+
+
+        @media (max-width: 575px) {
+            .table-responsive {
+            font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<pharma-navbar></pharma-navbar>
+<br>
+<main class="container my-4">
+<div class="container">
+
+    <!-- Tabela Paracetamol -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h1 class="h3 mb-1">Tabela e Krahasimeve</h1>
+            <p class="text-muted mb-4">Produkt: <strong>Paracetamol</strong></p>
+
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                    <tr>
+                        <th>Farmaci</th>
+                        <th>Produkti</th>
+                        <th class="text-end">Çmimi</th>
+                        <th class="text-center">Disponueshmëria</th>
+                        <th class="text-center">Veprime</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong>Farmacia Riga</strong></td>
+                        <td><img src="img/paracetamol.png" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">0.50 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#riga" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Farmacia Valeriana</strong></td>
+                        <td><img src="img/paracetamol.jpg" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">0.55 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#valeriana" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Natyra-J</td>
+                        <td><img src="img/paracetamol.jpg" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">0.60 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#natyraj" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Fleming</td>
+                        <td><img src="img/Paracet.jpg" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">0.45 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#fleming" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Uno Pharm</td>
+                        <td><img src="img/paracetamol.png" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">—</td>
+                        <td class="text-center"><span class="badge bg-danger badge-stock">Nuk ka në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#unopharm" class="btn btn-sm btn-outline-primary disabled" tabindex="-1" aria-disabled="true">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Dea</td>
+                        <td><img src="img/paracetamol.png" alt="Paracetamol" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">—</td>
+                        <td class="text-center"><span class="badge bg-danger badge-stock">Nuk ka në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#dea" class="btn btn-sm btn-outline-primary disabled" tabindex="-1" aria-disabled="true">Shiko lokacionin</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabela Omega 3 -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h1 class="h3 mb-1">Tabela e Krahasimeve</h1>
+            <p class="text-muted mb-4">Produkt: <strong>Omega 3</strong></p>
+
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                    <tr>
+                        <th>Farmaci</th>
+                        <th>Produkti</th>
+                        <th class="text-end">Çmimi</th>
+                        <th class="text-center">Disponueshmëria</th>
+                        <th class="text-center">Veprime</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong>Farmacia Riga</strong></td>
+                        <td><img src="img/Omega3.png" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">3.50 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#riga" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Farmacia Valeriana</strong></td>
+                        <td><img src="img/Omega3.png" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">3.80 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#valeriana" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Natyra-J</td>
+                        <td><img src="img/Omega3.png" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">4.10 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#natyraj" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Fleming</td>
+                        <td><img src="img/omega33.jpg" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">3.40 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#fleming" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Uno Pharm</td>
+                        <td><img src="img/omega3.jpg" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">3.90 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#unopharm" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    <tr>
+                        <td>Farmacia Dea</td>
+                        <td><img src="img/omega33.jpg" alt="Omega 3" width="70" class="me-2 rounded"></td>
+                        <td class="text-end price">3.70 €</td>
+                        <td class="text-center"><span class="badge bg-success badge-stock">Në stok</span></td>
+                        <td class="text-center"><a href="pharmacies.html#dea" class="btn btn-sm btn-outline-primary">Shiko lokacionin</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</main>
+
+<!-- Footer -->
+
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<pharma-footer></pharma-footer>
+</html>

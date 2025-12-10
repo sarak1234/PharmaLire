@@ -13,7 +13,7 @@ class PharmaNavbar extends HTMLElement {
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav align-items-center">
                 <li class="nav-item"><a class="nav-link custom" href="index.html" data-translate="home">Ballina</a></li>
-                <li class="nav-item"><a class="nav-link custom" href="#" data-translate="compare">Krahasoni Çmimet</a>
+                <li class="nav-item"><a class="nav-link custom" href="krahasimi.html" data-translate="compare">Krahasoni Çmimet</a>
                 </li>
                 <li class="nav-item"><a class="nav-link custom" href="pharmacies.html" data-translate="pharmacies">Farmacitë</a></li>
                 <li class="nav-item"><a class="nav-link custom" href="about.html" data-translate="about">Rreth Nesh</a></li>
