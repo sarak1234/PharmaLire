@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+;window.addEventListener('DOMContentLoaded', () => {
     // Chart për transparencën e çmimeve
     const chartTransparency = new Chart("chartTransparency", {
         type: "pie",
