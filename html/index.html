@@ -16,14 +16,11 @@
 </head>
 
 <body>
-<!-- NAVBAR -->
 <pharma-navbar></pharma-navbar>
 
-<!-- SLIDER -->
 <div class="container mt-4">
     <div id="mainSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
         <div class="carousel-inner">
-            <!-- SLIDE 1 -->
             <div class="carousel-item active">
                 <img src="img/doctor.jpg" class="d-block w-100" alt="medicine shelf">
                 <div class="carousel-caption d-none d-md-block carousel-caption-custom">
@@ -32,7 +29,6 @@
                 </div>
             </div>
             
-            <!-- SLIDE 2 -->
             <div class="carousel-item">
                 <img src="img/money.jpg" class="d-block w-100" alt="doctor and pills">
                 <div class="carousel-caption d-none d-md-block carousel-caption-custom">
@@ -41,7 +37,6 @@
                 </div>
             </div>
             
-            <!-- SLIDE 3 -->
             <div class="carousel-item">
                 <img src="img/mjeku.jpg" class="d-block w-100" alt="pharmacy counter">
                 <div class="carousel-caption d-none d-md-block carousel-caption-custom">
@@ -51,7 +46,6 @@
             </div>
         </div>
 
-        <!-- KONTROLLET E KARUSELIT -->
         <button class="carousel-control-prev carousel-control-custom" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
@@ -59,7 +53,6 @@
             <span class="carousel-control-next-icon"></span>
         </button>
 
-        <!-- INDIKATORËT -->
         <div class="carousel-indicators" style="bottom:10px;">
             <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
@@ -68,7 +61,6 @@
     </div>
 </div>
 
-<!-- SEARCH BAR -->
 <div class="container mt-5 text-center">
     <h2 class="fw-bold" style="color:#0b7d50;">Kërkoni produktet mjekësore </h2>
     <p class="text-muted">Krahasoni çmimet dhe gjeni ofertat më të mira në shehër</p>
@@ -78,10 +70,8 @@
     </div>
 </div>
 
-<!-- KARTELA TË VEÇORIVE -->
 <div class="container mt-5">
     <div class="row g-4">
-        <!-- KARTEL 1 -->
         <div class="col-md-4">
             <div class="card feature-card shadow-sm p-4 text-center">
                 <h5 class="fw-bold" style="color:#0b7d50;">Krahasoni Çmimet</h5>
@@ -89,7 +79,6 @@
             </div>
         </div>
         
-        <!-- KARTEL 2 -->
         <div class="col-md-4">
             <div class="card feature-card shadow-sm p-4 text-center">
                 <h5 class="fw-bold" style="color:#0b7d50;">Farmaci të Licensuara</h5>
@@ -97,7 +86,6 @@
             </div>
         </div>
         
-        <!-- KARTEL 3 -->
         <div class="col-md-4">
             <div class="card feature-card shadow-sm p-4 text-center">
                 <h5 class="fw-bold" style="color:#0b7d50;">Kurseni para dhe kohë</h5>
@@ -107,7 +95,6 @@
     </div>
 </div>
 
-<!-- COOKIE BANNER -->
 <div id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie banner">
     <div class="cookie-content">
         <div class="cookie-title" style="color:#90EE90;">POLITIKAT E COOKIES</div>
@@ -123,7 +110,6 @@
     </div>
 </div>
 
-<!-- CHAT DEMO -->
 <div id="chatDemo">
     <button id="openChatBtn" class="btn btn-success rounded-circle" style="width:60px;height:60px;font-size:24px; display:none;">💬</button>
     <div id="chatBox" class="card shadow-sm" style="display:none;margin-top:10px;">
@@ -144,10 +130,8 @@
     </div>
 </div>
 
-<!-- FOOTER -->
 <pharma-footer></pharma-footer>
 
-<!-- MODAL COOKIE SETTINGS -->
 <div class="modal fade" id="cookieSettingsModal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -178,7 +162,6 @@
     </div>
 </div>
 
-<!-- MODAL COOKIE POLICY -->
 <div class="modal fade" id="cookiePolicyModal" tabindex="-1">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -196,102 +179,75 @@
 
                     PharMaLirë është një platformë që krahason çmimet e barnatoreve dhe produkteve farmaceutike, dhe për funksionim korrekt të faqes përdorim disa lloje cookies.</br></p>
 
-                <p> Kur vizitoni faqen për herë të parë, do të shfaqet një cookie banner që ju lejon:
+               <p>Kur vizitoni faqen për herë të parë, do të shfaqet një cookie banner që ju lejon:</p>
+<ul>
+    <li><strong>Të pranoni të gjitha cookies</strong></li>
+    <li><strong>Të refuzoni cookies jo të domosdoshme</strong></li>
+    <li><strong>Të menaxhoni kategoritë e cookies sipas preferencave tuaja</strong></li>
+</ul>
 
-                   <br> <strong>Të pranoni të gjitha cookies</strong>
+<p>Cookies esenciale nuk mund të çaktivizohen sepse janë të nevojshme për funksionimin e faqes.</p>
 
-                    <br> <strong> Të refuzoni cookies jo të domosdoshme </strong>
 
-                    <br> <strong>  Të menaxhoni kategoritë e cookies sipas preferencave tuaja </strong>
-                    <br>
-                    <br>
+                    <p>Në PharMaLire, cookies përdoren për:</p>
+<ul>
+    <li>Sigurimin e funksionimit të faqes</li>
+    <li>Ruajtjen e preferencave të përdoruesve</li>
+    <li>Analizimin e performancës dhe trafikut</li>
+    <li>Përmirësimin e shpejtësisë dhe përvojës së përdorimit</li>
+    <li>Parandalimin e abuzimeve ose aktiviteteve të dyshimta</li>
+    <li>Personalizimin e përmbajtjes ku është e mundur</li>
+</ul>
 
-                    Cookies esenciale nuk mund të çaktivizohen sepse janë të nevojshme për funksionimin e faqes.</p>
+<p><strong>Cookies të Domosdoshme (Essential / Necessary)</strong></p>
+<p>Këto cookies janë të nevojshme për funksionimin bazë të faqes. Pa to, disa funksione themelore nuk do të jenë të mundshme.</p>
+<ul>
+    <li>Ruajtja e sesionit të përdoruesit</li>
+    <li>Funksionimi i elementeve bazë të navigimit</li>
+    <li>Menaxhimi i banderolës së cookies (banner consent)</li>
+</ul>
 
-                <p>Në PharMaLire, cookies përdoren për: <br>
+<p><strong>Cookies të Funksionalitetit (Functionality Cookies)</strong></p>
+<p>Këto cookies kujtojnë preferencat tuaja për një përvojë më të personalizuar.</p>
+<ul>
+    <li>Gjuha e zgjedhur</li>
+    <li>Vendndodhja e përgjithshme</li>
+    <li>Preferenca të dizajnit ose shfaqjes së faqeve</li>
+</ul>
 
-                    • Sigurimin e funksionimit të faqes<br>
+<p><strong>Cookies të Analitikës (Analytics / Performance Cookies)</strong></p>
+<p>Përdoren për të kuptuar sesi përdoruesit e vizitojnë faqen, cilat faqe janë më të kërkuara dhe sa gjatë qëndrojnë. Këto të dhëna janë anonime dhe na ndihmojnë të përmirësojmë faqen.</p>
+<ul>
+    <li>Google Analytics (nëse përdoret)</li>
+    <li>Matja e numrit të klikimeve, kërkimeve, ose vizitave</li>
+</ul>
 
-                        • Ruajtjen e preferencave të përdoruesve <br>
+<p><strong>Cookies të Marketingut ose të Palëve të Treta (Advertising / Third-Party Cookies)</strong></p>
+<p>Përdoren vetëm nëse integrohen shërbime të jashtme, si:</p>
+<ul>
+    <li>Google Ads</li>
+    <li>Pixel të rrjeteve sociale</li>
+    <li>Shërbime të rekomanduara</li>
+</ul>
+<p>Këto cookies mund të përdoren për të shfaqur përmbajtje ose reklama më të përshtatura për interesat tuaja.</p>
 
-                        • Analizimin e performancës dhe trafikut <br>
+<p>Faqja jonë mund të përdorë shërbime të jashtme që vendosin cookies në pajisjen tuaj. Këto palë të treta mund të përfshijnë:</p>
+<ul>
+    <li>Google Analytics</li>
+    <li>Shërbime të marketingut</li>
+    <li>Pajisje statistikore ose teknike</li>
+</ul>
+<p>Ne nuk kontrollojmë cookies të këtyre palëve dhe ju rekomandojmë të lexoni politikat e tyre të privatësisë.</p>
 
-                        • Përmirësimin e shpejtësisë dhe përvojës së përdorimit <br>
+<p>Kjo politikë mund të ndryshohet herë pas here për të reflektuar ndryshime teknike, ligjore apo funksionale. Çdo ndryshim do të publikohet me datën e përditësimit në krye të dokumentit.</p>
 
-                        • Parandalimin e abuzimeve ose aktiviteteve të dyshimta <br>
+<p>Për çfarëdo pyetjeje në lidhje me këto Politika të Cookies, mund të na kontaktoni në: <br>
+<strong>info@pharmalire.com</strong></p>
 
-                        • Personalizimin e përmbajtjes ku është e mundur <br>
 
-                    <br> <strong> Cookies të Domosdoshme (Essential / Necessary)</strong>
 
-                    Këto cookies janë të nevojshme për funksionimin bazë të faqes. Pa to, disa funksione themelore nuk do të jenë të mundshme.
-                    <br>Perfshine:
-
-                    <br>
-                    •Ruajtja e sesionit të përdoruesit
-
-                    <br>
-                    • Funksionimi i elementeve bazë të navigimit
-
-                    <br>
-                    •Menaxhimi i banderolës së cookies (banner consent)  <br>
-
-                    <strong>  Cookies të Funksionalitetit (Functionality Cookies) </strong>
-
-                    Këto cookies kujtojnë preferencat tuaja për një përvojë më të personalizuar.
-                    Perfshine:
-
-                    <br>
-                    •Gjuha e zgjedhur
-
-                    <br>
-                    • Vendndodhja e përgjithshme
-
-                    <br>
-                    • Preferenca të dizajnit ose shfaqjes së faqeve
-                    <br>
-                    <strong>  Cookies të Analitikës (Analytics / Performance Cookies) </strong>
-
-                    Përdoren për të kuptuar sesi përdoruesit e vizitojnë faqen, cilat faqe janë më të kërkuara dhe sa gjatë qëndrojnë. Këto të dhëna janë anonime dhe na ndihmojnë të përmirësojmë faqen.
-                    Perfshine:
-
-                    <br>
-                    • Google Analytics (nëse përdoret)
-
-                    <br>
-                    •Matja e numrit të klikimeve, kërkimeve, ose vizitave <br>
-
-                   <strong>Cookies të Marketingut ose të Palëve të Treta (Advertising / Third-Party Cookies)</strong>
-
-                    Përdoren vetëm nëse integrohen shërbime të jashtme, si:
-
-                    <br>
-                    • Google Ads
-
-                    <br>
-                    • Pixel të rrjeteve sociale
-
-                    <br>
-                    • Shërbime të rekomanduara
-                    Këto cookies mund të përdoren për të shfaqur përmbajtje ose reklama më të përshtatura për interesat tuaja.
-                    <br> <br>
-                    Faqja jonë mund të përdorë shërbime të jashtme që vendosin cookies në pajisjen tuaj.
-                    Këto palë të treta mund të përfshijnë:
-                    <br>
-                    •  Google Analytics
-                    <br>
-                    • Shërbime të marketingut
-                    <br>
-                    • Pajisje statistikore ose teknike
-                    <br>
-                    Ne nuk kontrollojmë cookies të këtyre palëve dhe ju rekomandojmë të lexoni politikat e tyre të privatësisë.<br>
-                    <br>
-                    Kjo politikë mund të ndryshohet herë pas here për të reflektuar ndryshime teknike, ligjore apo funksionale.
-                    Çdo ndryshim do të publikohet me datën e përditësimit në krye të dokumentit. <br>
-                    Për çfarëdo pyetjeje në lidhje me këto Politika të Cookies, mund të na kontaktoni në: <br>
-                   <strong> 📧 info@pharmalire.com </strong>
-
-                </p>
+               
+            
             </div>
             <div class="modal-footer">
                 <button class="btn btn-success" data-bs-dismiss="modal">Mbyll</button>
@@ -300,150 +256,7 @@
     </div>
 </div>
 
-<!-- SCRIPTS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    // ===== KONSTANTE =====
-    const COOKIE_KEY = 'pharmalire_cookies_v2';
-    const cookieBanner = document.getElementById('cookieBanner');
-    const openChatBtn = document.getElementById('openChatBtn');
-    const closeChatBtn = document.getElementById('closeChatBtn');
-    const chatBox = document.getElementById('chatBox');
-
-    // ===== FUNKSIONET =====
-    
-    // Fshi cookies çdo herë që faqja loadohet
-    function clearCookiesOnLoad() {
-        localStorage.removeItem(COOKIE_KEY);
-        console.log("Cookies u fshinë automatikisht në load");
-    }
-    
-    // Kontrollo nëse duhet të shfaqet banner-i
-    function checkCookieBanner() {
-        // Fshi cookies fillimisht
-        clearCookiesOnLoad();
-        
-        // Gjithmonë shfaq banner-in pasi çdo herë fshihen cookies
-        setTimeout(() => {
-            cookieBanner.style.display = 'flex';
-        }, 500);
-        
-        // Fshi butonin e chat-it pasi cookies fshihen
-        openChatBtn.style.display = 'none';
-    }
-
-    // Apliko parapëlqimet (vetëm për kohën aktuale të session)
-    function applyCookiePreferences(prefs) {
-        console.log('Applying cookie preferences for current session:', prefs);
-        // Këtu mund të implementoni logjikën aktuale për cookies
-    }
-
-    // Ruaj parapëlqimet (do të fshihen në refresh)
-    function savePreferences(prefs) {
-        // Ruaj vetëm për kohën aktuale të session
-        localStorage.setItem(COOKIE_KEY, JSON.stringify(prefs));
-        cookieBanner.style.display = 'none';
-        applyCookiePreferences(prefs);
-        
-        // Shfaq butonin e chat nëse cookies janë pranuar
-        if(prefs.accepted) {
-            openChatBtn.style.display = 'inline-block';
-        }
-        
-    }
-
-    // Pranoni të gjitha
-    function handleAcceptAllCookies() {
-        savePreferences({
-            accepted: true,
-            analytics: true,
-            marketing: true,
-            preferences: true,
-            date: new Date().toISOString()
-        });
-    }
-
-    // Vetëm të nevojshmet
-    function handleOnlyNecessary() {
-        savePreferences({
-            accepted: true,
-            analytics: false,
-            marketing: false,
-            preferences: false,
-            date: new Date().toISOString()
-        });
-    }
-
-    // Ruaj cilësimet
-    function handleSaveCookieSettings() {
-        const analytics = document.getElementById('analyticsCookies').checked;
-        const marketing = document.getElementById('marketingCookies').checked;
-        const preferences = document.getElementById('preferenceCookies').checked;
-        
-        savePreferences({
-            accepted: true,
-            analytics,
-            marketing,
-            preferences,
-            date: new Date().toISOString()
-        });
-        
-        // Mbylle modal-in
-        const modal = bootstrap.Modal.getInstance(document.getElementById('cookieSettingsModal'));
-        if (modal) {
-            modal.hide();
-        }
-    }
-
-    // Kërko
-    function handleSearch() {
-        const q = document.getElementById('bigSearchInput').value.trim();
-        if(!q) {
-            alert('Shkruaj emrin e barnës.');
-            return;
-        }
-        alert("Kërkim: " + q + "\n Mbyllni këtë njoftim për të ju dërguar në krahasimin e cmimeve");
-         window.location.href = "krahasimi.html?query=" + encodeURIComponent(q);
-    }
-
-    // Chat
-    function openChat() {
-        chatBox.style.display = 'block';
-        openChatBtn.style.display = 'none';
-    }
-
-    function closeChat() {
-        chatBox.style.display = 'none';
-        openChatBtn.style.display = 'inline-block';
-    }
-
-    // ===== INIT =====
-    document.addEventListener('DOMContentLoaded', function(){
-        console.log("Page loaded - cookies will be cleared automatically");
-        
-        // Cookie modal
-        const cookieModal = document.getElementById('cookieSettingsModal');
-        if(cookieModal){
-            cookieModal.addEventListener('show.bs.modal', function(){
-                // Kontrollo nëse ka parapëlqime të ruajtura për këtë session
-                const saved = JSON.parse(localStorage.getItem(COOKIE_KEY) || '{}');
-                document.getElementById('analyticsCookies').checked = saved.analytics || false;
-                document.getElementById('marketingCookies').checked = saved.marketing || false;
-                document.getElementById('preferenceCookies').checked = saved.preferences || false;
-            });
-        }
-
-        // Butona
-        document.getElementById('bigSearchBtn').onclick = handleSearch;
-        document.getElementById('acceptAllCookies').onclick = handleAcceptAllCookies;
-        document.getElementById('onlyNecessary').onclick = handleOnlyNecessary;
-        document.getElementById('saveCookieSettings').onclick = handleSaveCookieSettings;
-        openChatBtn.onclick = openChat;
-        closeChatBtn.onclick = closeChat;
-
-        // Gjithmonë shfaq banner-in e cookies në load
-        checkCookieBanner();
-    });
-</script>
+<script src="../html/js/index.js"></script>
 </body>
 </html>

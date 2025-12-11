@@ -5,66 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-          background-color: #f5f5f5;
-          font-family: Arial, sans-serif;
-        }
-        .signup-container {
-          max-width: 400px;
-          margin: 80px auto;
-          padding: 30px;
-          background: #fff;
-          border-radius: 8px;
-          box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .signup-container h4 {
-          text-align: center;
-          color: #0b7d50;
-          margin-bottom: 25px;
-        }
-        .btn-signup {
-          background-color: #0b7d50;
-          color: #fff;
-          font-weight: 600;
-          width: 100%;
-          border-radius: 6px;
-        }
-        .btn-signup:hover {
-          background-color: #085c3b;
-        }
-        .form-text a {
-          color: #0b7d50;
-          text-decoration: none;
-        }
-        .form-text a:hover {
-          text-decoration: underline;
-        }
-        .login-text {
-          font-size: 0.85rem;
-          text-align: center;
-          margin-top: 15px;
-        }
-        .login-text a {
-          color: #0b7d50;
-          font-weight: 600;
-        }
-        .login-text a:hover {
-          text-decoration: underline;
-        }
-        .terms-signup {
-          font-size: 0.8rem;
-          color: #555;
-          text-align: center;
-          margin-top: 10px;
-        }
-        @media (max-width: 576px) {
-          .signup-container {
-            margin: 40px 20px;
-            padding: 20px;
-          }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
 
@@ -92,7 +33,6 @@
             <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password" required>
         </div>
 
-        <!-- Terms & Privacy -->
         <div class="form-check mb-3">
             <input class="form-check-input" type="checkbox" id="agreeTerms" required>
             <label class="form-check-label" for="agreeTerms">
@@ -112,7 +52,6 @@
     </form>
 </div>
 
-<!-- Terms of Service Modal -->
 <div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
@@ -132,7 +71,6 @@
     </div>
 </div>
 
-<!-- Privacy Policy Modal -->
 <div class="modal fade" id="privacyModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">

@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background-color: #f8f9fa;
     font-family: Arial, sans-serif;
     color: #222;
 }
@@ -70,9 +70,6 @@ body {
 .feature-card {
     border-radius: 12px;
     transition: .2s;
-}
-.feature-card:hover { 
-    transform: translateY(-4px); 
 }
 
 #cookieBanner {
