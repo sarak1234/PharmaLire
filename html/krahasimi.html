@@ -11,6 +11,12 @@
     <script src="../html/js/nav.js" defer ></script>
     <script src="../html/js/footer.js" defer ></script>
     <link rel="stylesheet" href="../css/compare.css">
+    <style>
+        .filter-options {
+    font-weight: 500;
+}
+
+    </style>
 </head>
 <body>
 
@@ -19,10 +25,20 @@
 <main class="container my-4">
 <div class="container">
 
+
     <div class="card shadow-sm mb-4">
         <div class="card-body">
             <h1 class="h3 mb-1">Tabela e Krahasimeve</h1>
             <p class="text-muted mb-4">Produkt: <strong>Paracetamol</strong></p>
+
+
+            <div class="filter-options mb-3 d-flex align-items-center">
+                <label  class="me-2 fw-semibold">Filtroni sipas çmimit:</label>
+                <select  class="form-select w-auto">
+                    <option>Çmimi më i ulët</option>
+                    <option>Çmimi më i lartë</option>
+                </select>
+            </div>
 
             <div class="table-responsive">
                 <table class="table table-hover align-middle">
@@ -33,7 +49,7 @@
                         <th class="text-end">Çmimi</th>
                         <th class="text-center">Disponueshmëria</th>
                         <th class="text-center">Veprime</th>
-                        <th class="text-center">Shtoni produktin / sasinë </th>
+                        <th class="text-center">Shtoni sasinë </th>
                     </tr>
                     </thead>
                     <tbody>
@@ -95,7 +111,13 @@
         <div class="card-body">
             <h1 class="h3 mb-1">Tabela e Krahasimeve</h1>
             <p class="text-muted mb-4">Produkt: <strong>Omega 3</strong></p>
-
+            <div class="filter-options mb-3 d-flex align-items-center">
+                <label  class="me-2 fw-semibold">Filtroni sipas çmimit:</label>
+                <select class="form-select w-auto">
+                    <option>Çmimi më i ulët</option>
+                    <option>Çmimi më i lartë</option>
+                </select>
+            </div>
             <div class="table-responsive">
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
