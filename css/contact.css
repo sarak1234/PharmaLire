@@ -1,19 +1,19 @@
   body {
-            overflow-x: hidden;
-            background-color: #f8f9fa;
-        }
+      overflow-x: hidden;
+      background-color: #f8f9fa;
+  }
 
 
-        .contact-card {
-            background-color: white;
-            border-radius: 15px;
-            padding: 30px 20px;
-            text-align: center;
-        }
+  .contact-card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 30px 20px;
+      text-align: center;
+  }
 
 
-        .form-card {
-            background-color: white;
-            padding: 30px;
-            border-radius: 15px;
-        }
+  .form-card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+  }

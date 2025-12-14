@@ -1,4 +1,3 @@
-// footer.js
 
 const footerHTML = `
 <footer class="bg-dark text-white pt-5 pb-4 mt-5">
@@ -10,7 +9,6 @@ const footerHTML = `
                 <p>Platformë që ju ndihmon të gjeni produkte mjekësore në kohë rekord me cmime më të përballueshme në treg. </p>
             </div>
 
-            <!-- Quick Links -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-success">Faqe</h6>
                 <p><a href="index.html" class="text-white text-decoration-none">Ballina</a></p>
@@ -19,7 +17,6 @@ const footerHTML = `
                 <p><a href="about.html" class="text-white text-decoration-none">Rreth Nesh</a></p>
             </div>
 
-            <!-- Support -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-success">Regjistrimi</h6>
                 <p><a href="login.html" class="text-white text-decoration-none">Login</a></p>
@@ -27,7 +24,6 @@ const footerHTML = `
 
             </div>
 
-            <!-- Contact -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-success">Kontakti</h6>
                 <p><a href="contact.html" class="text-white text-decoration-none">Contact</a></p>
@@ -50,7 +46,6 @@ const footerHTML = `
 </footer>
 `;
 
-// Insert footer at the end of body
 document.addEventListener("DOMContentLoaded", () => {
     const footerContainer = document.createElement("div");
     footerContainer.innerHTML = footerHTML;

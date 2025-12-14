@@ -76,12 +76,3 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-
-
-
-
-//kuqe ----#dc3811
-
-//kalter--#3366cc
-//orange--#ff9900
